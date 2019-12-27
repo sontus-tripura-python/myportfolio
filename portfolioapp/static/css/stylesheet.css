@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background: #e0e0ff;
+  box-shadow: 2px 2px 3px #000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 85%;
+  z-index: 9999;
+}
+
+.nav-link{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.body{
+  background: #ddd;
+}
+.slider_img_section{
+  margin-top: 65px;
+  height: 450px;
+  text-align: center;
+box-shadow: 2px 2px 3px #000;
+  background: #1f9fac;
+}
+.my_pic_slider{
+  width: 300px;
+    margin-top: 10px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.titleheader{
+  font-size: 26px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.typing{
+color:red;
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+.Service_section{
+  box-shadow: 2px 2px 3px #000;
+  margin-top: 8px;
+  background: #acbbf9;
+  min-height: 500px;
+}
+.servicehead{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.Service{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-style: italic;
+}
+.Service_div{
+  margin-top: 10px;
+  background: #1f9fac;
+  width:300px;
+  margin-left: 20px;
+  text-align: center;
+  height: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
+   padding-left: 10px;
+   box-shadow: 2px 2px 3px #000;
+
+}
+.servie_list{
+  letter-spacing: 2px;
+  font-style: 22px;
+  font-weight: bold;
+  color: #fff;
+  list-style: none;
+}
+.fa-laptop{
+  color:#212131;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border:1px solid #21d2d2;;
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  background: #21d2d2;;
+}
+.fa-laptop:hover{
+  cursor: pointer;
+  color:#fff;
+  border:1px solid #1f9fac;
+  background: #1f9fac;
+}
+.fa-code{
+  color:#212131;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border:1px solid #21d2d2;;
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  background: #21d2d2;;
+}
+.fa-code:hover{
+  cursor: pointer;
+  color:#fff;
+  border:1px solid #1f9fac;
+  background: #1f9fac;
+}
+.fa-tools{
+  color:#212131;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border:1px solid #21d2d2;;
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  background: #21d2d2;;
+}
+.fa-tools:hover{
+  cursor: pointer;
+  color:#fff;
+  border:1px solid #1f9fac;
+  background: #1f9fac;
+}
+.title_service{
+  color: #000;
+  font-style: italic;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.service_description{
+  color:#fff;
+  line-height: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: sans-serif;
+}
+/*----- about section---*/
+.profile_div{
+  margin-top: 65px;
+	width:770px;
+	min-height:950px;
+	background:#fff;
+	box-shadow:1px 4px 5px 2px #333d42
+}
+.profile-detail-pic{
+	height:300px;
+	margin-top:20px;
+	width:300px;
+}
+.about_Image{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.name{
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-style: italic;
+}
+.aboutme{
+  margin-top: 20px;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+.aboutTitle{
+  font-style: italic;
+  font-weight: lighter;
+  font-family: fantasy;
+}
+.aboutTitle2{
+  font-style: italic;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.followMe{
+  font-style: italic;
+}
+.aboutfb{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 10px;
+  background: #3B5998;
+  color: white;
+}
+.abouttwitter {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 10px;
+  background: #55ACEE;
+  color: white;
+}
+.aboutlinkIN {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 10px;
+  background: #007bb5;
+  color: white;
+}
+.aboutinstgrm{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 10px;
+  background:#E4405F;
+  color: white;
+}
+.typingABOUT{
+  color:green;
+}
+/*-- contact section css--*/
+.portfolio_section{
+  min-height: 800px;
+  margin-top: 8px;
+  background: #1f9fac;
+  box-shadow: 2px 2px 3px #000;
+}
+.project_title{
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+    color: #fff;
+    background-color: #28bea8;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 50px;
+    color: #000;
+    border-radius: 0;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.card-head{
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(67,78,94,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color :#fff;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.card-hover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40,190,168,0.9);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4.title{
+    color: #434e5e;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card-btn{
+    margin-bottom: -40px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-btn:hover{
+    background-color: #28bea8;
+    color: #fff;
+}
+/*----- contact css----*/
+.contact_section{
+  background: #258e62;
+  min-height: 300px;
+}
+.contact_title{
+  text-align: center;
+}
+.form_wrap{
+  width: 600px;
+}
+.input_section{
+  padding: 10px;
+}
+/*--- portfolio section---*/
+.footer_section{
+  background: #000;
+  height: 300px;
+}
+.copyright{
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+
+}
